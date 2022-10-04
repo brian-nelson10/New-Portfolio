@@ -69,12 +69,21 @@ h1 {
 }
 
 p {
-    font-family: 'Rubik', sans-serif;
+    
     font-size: 17px;
 }
 
 hr {
     border-top-width: 1px;
+}
+
+h4,
+.lead {
+    font-family: 'Rock Salt', cursive;
+}
+
+.intro {
+    font-family: 'Rubik', sans-serif;
 }
 
 .bd-placeholder-img {
@@ -193,7 +202,7 @@ ul {
  .arrows {
 
     position: relative;
-    animation: arrows .5s 1s infinite ease-out alternate;
+    animation: arrows 1s 1.5s infinite ease-out alternate;
 } 
 
 .arrows:hover{
@@ -208,6 +217,69 @@ ul {
     bottom: 40px;
 }
 } 
+
+.fab {
+    font-size: 80px;
+}
+
+.fab:hover {
+    color: salmon;
+}
+
+.hand {
+    height: 100%;
+    width: 100%;
+}
+
+/* .kard:hover {
+    transform: scale(10px);
+    
+} */
+
+.card-img-top {
+    max-height: 300px;
+}
+
+.wrapper {  
+    border-radius: 20px;  
+    overflow: hidden;  
+    transition: all 0.3s ease-in-out;  
+    box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.49);  
+    
+}  
+.wrapper:hover .image-top {  
+    overflow: hidden;  
+    transition: all 0.3s linear;  
+    box-shadow: inset -6px -1px 32px 0px rgba(0, 0, 0, 0.75);  
+}  
+.wrapper:hover .card-body {  
+    transform: translate(0%, -50%);  
+    transition: all 0.8s ease-in;  
+    background-color: salmon;  
+    font-family: 'Passion One', cursive;
+}  
+.card {  
+    position: relative;  
+    width: 100%;  
+    height: 100%;  
+    z-index: 1;  
+}  
+.card-body {  
+    width: 100%;  
+    position: absolute;  
+    z-index: 20;  
+    display: nonee;  
+    top: 50%;  
+    background-color: rgba(110, 122, 92, 0);  
+    padding: 100px 20px;  
+    color: #fff;  
+    transform: translate(100%, -50%);  
+}  
+
+.yellowCup {
+    height: 400px;
+}
+
 /* 
 .arrows{
     
