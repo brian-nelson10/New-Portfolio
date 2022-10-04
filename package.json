@@ -6,5 +6,24 @@
     "mysql2": "^2.3.3",
     "node": "^18.9.1",
     "sequelize": "^6.23.2"
-  }
+  },
+  "name": "shiny-portfolio",
+  "description": "Eye catching webdev portfolio.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-nelson10/shiny-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brian-nelson10/shiny-portfolio/issues"
+  },
+  "homepage": "https://github.com/brian-nelson10/shiny-portfolio#readme"
 }

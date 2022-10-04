@@ -277,9 +277,14 @@ ul {
 }  
 
 .yellowCup {
-    height: 400px;
+    height: 280px;
+    
+    transform: scaleX(-1);
 }
 
+.yellow {
+    height: 290px;
+}
 /* 
 .arrows{
     
