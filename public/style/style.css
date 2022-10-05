@@ -157,13 +157,13 @@ h4,
     background-repeat: no-repeat;
     background-position-x: 226%;
     background-position-y: -45%;
-    animation-name: move;
+    animation-name: moon;
     animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: 1;
 }
 
-@keyframes move {
+@keyframes moon {
     0% {
         background-position: 0% 0%;
     }
@@ -173,20 +173,28 @@ h4,
 }
 
 .circle {
-    background-image: url('/images/circle.png');
+    background-image: url('/images/bnmoonclouds.png');
     background-repeat: no-repeat;
-    background-size: 102%;
-    background-position-y: 100%;
-    background-position-x: 20%;
-    animation-name: animatedBackground;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-    animation-duration: 12s;
+    background-size: 90%;
+    background-position: fixed;
+    animation: clouds 1.8s 1.8s  infinite ease-in-out alternate;
+    
 }
 
-@keyframes animatedBackground{
-    from{background-position: 0 0;}
-    to{background-position: 20% 100%;}
+@keyframes clouds{
+    from{background-position: 0%, 0%;}
+    to{background-position: 10%, 10% ;}
+}
+
+.collab {
+  animation: collab 2s infinite ease-in-out alternate;
+}
+
+@keyframes collab {
+  from {transform: rotateX(0deg);}
+  to {transform: rotateX(15deg);}
+  
+  
 }
 
 .skill {
@@ -200,7 +208,6 @@ ul {
 }
 
  .arrows {
-
     position: relative;
     animation: arrows 1s 1.5s infinite ease-out alternate;
 } 
@@ -276,15 +283,13 @@ ul {
     transform: translate(100%, -50%);  
 }  
 
-.yellowCup {
-    height: 280px;
-    
-    transform: scaleX(-1);
+.collab {
+    height: 550px;
+    position: inherit;
+   
 }
 
-.yellow {
-    height: 290px;
-}
+
 /* 
 .arrows{
     
