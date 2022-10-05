@@ -68,7 +68,7 @@
     </p>
     </div>
     <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white learn">Learn more</a>
       <a href="#" class="btn btn-lg btn-secondary fw-bold border-white text-white bg-dark">Download Resume</a>
     </p>
 </div>
@@ -205,8 +205,9 @@
 <section class="container">
 <br>
     <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col wrapper">
+        <div class="col wrapper" data-tilt data-tilt-glare data-tilt-max-glare="1" data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           <div class="card aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
+          
             <a href="https://kristafrancis.github.io/now-were-cookin/">
             <img src="/images/cards/181138849-600a1f30-236a-49d5-bb01-846cbba75c38.png" class="card-img-top" alt="...">
                 </a>
@@ -216,7 +217,7 @@
             </div>
           </div>
         </div>
-        <div class="col wrapper">
+        <div class="col wrapper" data-tilt data-tilt-glare data-tilt-max-glare="1" data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           <div class="card aos-init aos-animate" data-aos="flip-right" data-aos-duration="1000">
             <a href="">
             <img src="images/cards/screencapture-chrome-extension-fdpohaocaechififmbbbbbknoalclacl-capture-html-2022-09-24-18_52_40.png" class="card-img-top" alt="...">
@@ -228,7 +229,7 @@
           </div>
         </div>
         <br>
-        <div class="col wrapper">
+        <div class="col wrapper" data-tilt data-tilt-glare data-tilt-max-glare="1" data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           <div class="card aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
             <a href="">
             </a>
@@ -239,7 +240,7 @@
             </div>
           </div>
         </div>
-        <div class="col wrapper">
+        <div class="col wrapper" data-tilt data-tilt-glare data-tilt-max-glare="1" data-tilt-max="50" data-tilt-speed="400" data-tilt-perspective="500">
           <div class="card aos-init aos-animate" data-aos="flip-right" data-aos-duration="1000">
             <a href="">
             <img src="..." class="card-img-top" alt="...">
@@ -272,7 +273,8 @@
                         <li>Lets talk,</li>
                         <li style="color: salmon;">Collaborate,</li>
                         <li>and grab some </li>
-                        <li>coffee.</li>
+                        <li id="drinkText">Coffee.</li>
+                        <li style="font-family: Rock Salt;"><a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Drop a line.</a></li>
                     </ul>
                 </h1>
                         <div class="col justify-content-end aos-init aos-animate " data-aos="fade-up" data-aos-duration="1000">
@@ -336,6 +338,8 @@
 <script>
     AOS.init();
   </script>
+<script src="/public/index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
 
   </body>
 </html>
